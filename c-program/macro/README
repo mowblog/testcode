@@ -1,0 +1,1 @@
+gcc -DAF6 micro.c

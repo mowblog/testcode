@@ -11,7 +11,7 @@ PASSWORD="helloworld"
 DAYS=3650
 SUBJECT=""
 POLICY="policy_anything"
-PKCSNAME="LZU"
+
 
 if [ $PRIVATE_KEY_WITH_PASSWORD == "true" ];then
 PASSOUT="-aes256 -passout pass:$PASSWORD"
@@ -23,6 +23,7 @@ fi
 
 #keystore密码
 PKCSPASSOUT="-passout pass:Aa123456"
+TRUSTKEYSTOREPASSWORD="Aa123456"
 
 rm -rf RootCA* newCert
 LV=0
@@ -103,11 +104,14 @@ openssl x509 -modulus -noout -in Client.pem | openssl md5
 echo
 echo "======= generate pkcs12 without chain for java program ======="
 echo
-openssl pkcs12 -export -in Server.pem -inkey Server.key -name $PKCSNAME $PKCSPASSOUT  -out Server.p12
-openssl pkcs12 -export -in Client.pem -inkey Client.key -name $PKCSNAME $PKCSPASSOUT  -out Client.p12
+openssl pkcs12 -export -in Server.pem -inkey Server.key -name Server $PKCSPASSOUT  -out Server.p12
+openssl pkcs12 -export -in Client.pem -inkey Client.key -name Client $PKCSPASSOUT  -out Client.p12
+keytool -import -alias Client -keystore ServerTrust.p12 -storepass $TRUSTKEYSTOREPASSWORD -noprompt -file Client.pem
+keytool -import -alias Server -keystore ClientTrust.p12 -storepass $TRUSTKEYSTOREPASSWORD -noprompt -file Server.pem
 
 echo
 echo "======= generate pkcs12 with chain for java program ======="
 echo
-openssl pkcs12 -export -chain -CAfile RootCA$LV.pem -in Server.pem -inkey Server.key -name $PKCSNAME $PKCSPASSOUT  -out Server_wc.p12
-openssl pkcs12 -export -chain -CAfile RootCA$LV.pem -in Client.pem -inkey Client.key -name $PKCSNAME $PKCSPASSOUT  -out Client_wc.p12
+openssl pkcs12 -export -chain -CAfile RootCA$LV.pem -in Server.pem -inkey Server.key -name Server $PKCSPASSOUT  -out Server_wc.p12
+openssl pkcs12 -export -chain -CAfile RootCA$LV.pem -in Client.pem -inkey Client.key -name Client $PKCSPASSOUT  -out Client_wc.p12
+

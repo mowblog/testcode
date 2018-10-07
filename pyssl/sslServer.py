@@ -2,12 +2,13 @@ import socket
 import ssl
 import sys
 
+
 def sslServer(host, port):
     ssl_context = ssl.SSLContext()
     ssl_context.verify_mode = ssl.CERT_REQUIRED
     ssl_context.load_verify_locations(cafile='RootCA.pem')
     ssl_context.check_hostname = False
-    ssl_context.protocol = ssl.PROTOCOL_TLS_SERVER
+    #ssl_context.protocol = ssl.PROTOCOL_TLS_SERVER
     ssl_context.load_cert_chain("Server.pem", "Server.key")
     try:
         server = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0)

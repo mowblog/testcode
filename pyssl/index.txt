@@ -1,0 +1,1 @@
+R	191007084947Z	181007085845Z	02	unknown	/C=CN/ST=GS/L=LZ/O=LZUiversity/OU=ETS/CN=Client/emailAddress=RootCA0@lzu.cn

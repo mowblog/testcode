@@ -1,0 +1,27 @@
+﻿Build started 2014-4-24 22:40:49.
+     1>Project "E:\Project\socket\socket\socket.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\socket.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0409" /IRelease\ /nologo /fo"Release\socket.res" socket.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\socket\Release\socket.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\socket.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\socket\Release\socket.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\socket\Release\socket.lib" /MACHINE:X86 Release\socket.res
+         Release\socket.obj
+         Release\socketDlg.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         socket.vcxproj -> E:\Project\socket\Release\socket.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\socket\Release\socket.exe;#1" /manifest Release\socket.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\socket.unsuccessfulbuild".
+         Touching "Release\socket.lastbuildstate".
+     1>Done Building Project "E:\Project\socket\socket\socket.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.32

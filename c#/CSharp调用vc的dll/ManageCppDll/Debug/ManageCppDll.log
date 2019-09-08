@@ -1,0 +1,37 @@
+﻿Build started 2015-3-6 16:01:55.
+     1>Project "F:\Learn\C#\CSharp调用vc的dll\ManageCppDll\ManageCppDll.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ManageCppDll.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\ManageCppDll.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\\" /AIC:\WINDOWS\Microsoft.NET\Framework\v3.5\ /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\\" /AIC:\WINDOWS\Microsoft.NET\Framework\v3.0\ /AIC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\ /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ManageCppDll.pch" /Fo"Debug\\" /Fd"Debug\vc90.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /FUC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt Stdafx.cpp /d1clr:nostdlib 
+         Stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\\" /AIC:\WINDOWS\Microsoft.NET\Framework\v3.5\ /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\\" /AIC:\WINDOWS\Microsoft.NET\Framework\v3.0\ /AIC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\ /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ManageCppDll.pch" /Fo"Debug\\" /Fd"Debug\vc90.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /FUC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /FUC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /FUC:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /analyze- /errorReport:prompt AssemblyInfo.cpp ManageCppDll.cpp /d1clr:nostdlib 
+         AssemblyInfo.cpp
+         ManageCppDll.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /fo"Debug\app.res" app.rc 
+         Microsoft (R) Windows (R) Resource Compiler Version 6.1.7600.16385
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+       Link:
+         C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Learn\C#\CSharp调用vc的dll\NativeCPPDll\Debug\ManageCppDll.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\NativeCPPDll\Debug NativeCppDll.lib /MANIFEST /ManifestFile:"Debug\ManageCppDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Learn\C#\CSharp调用vc的dll\NativeCPPDll\Debug\ManageCppDll.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\ManageCppDll.obj
+         Debug\Stdafx.obj
+            Creating library F:\Learn\C#\CSharp调用vc的dll\NativeCPPDll\Debug\ManageCppDll.lib and object F:\Learn\C#\CSharp调用vc的dll\NativeCPPDll\Debug\ManageCppDll.exp
+         ManageCppDll.vcxproj -> F:\Learn\C#\CSharp调用vc的dll\NativeCPPDll\Debug\ManageCppDll.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0\bin\mt.exe /nologo /verbose /outputresource:"F:\Learn\C#\CSharp调用vc的dll\NativeCPPDll\Debug\ManageCppDll.dll;#2" /manifest Debug\ManageCppDll.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ManageCppDll.unsuccessfulbuild".
+         Touching "Debug\ManageCppDll.lastbuildstate".
+     1>Done Building Project "F:\Learn\C#\CSharp调用vc的dll\ManageCppDll\ManageCppDll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

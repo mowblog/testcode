@@ -1,0 +1,15 @@
+!DEC$ FREEFORM
+!/*********************  Prototypes  ***********************/
+interface 
+integer*4 function MainWndProc ( hwnd, mesg, wParam, lParam )
+!DEC$ IF DEFINED(_X86_)
+!DEC$ ATTRIBUTES STDCALL, ALIAS : '_MainWndProc@16' :: MainWndProc
+!DEC$ ELSE
+!DEC$ ATTRIBUTES STDCALL, ALIAS : 'MainWndProc' :: MainWndProc
+!DEC$ ENDIF
+integer*4 hwnd 
+integer*4 mesg  
+integer*4 wParam
+integer*4 lParam 
+end function 
+end interface

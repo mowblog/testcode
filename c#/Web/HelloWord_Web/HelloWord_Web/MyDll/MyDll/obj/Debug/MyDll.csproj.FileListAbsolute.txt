@@ -1,0 +1,5 @@
+F:\Learn\C#\Web\HelloWord_Web\MyDll\MyDll\bin\Debug\MyDll.dll
+F:\Learn\C#\Web\HelloWord_Web\MyDll\MyDll\bin\Debug\MyDll.pdb
+F:\Learn\C#\Web\HelloWord_Web\MyDll\MyDll\obj\Debug\ResolveAssemblyReference.cache
+F:\Learn\C#\Web\HelloWord_Web\MyDll\MyDll\obj\Debug\MyDll.dll
+F:\Learn\C#\Web\HelloWord_Web\MyDll\MyDll\obj\Debug\MyDll.pdb

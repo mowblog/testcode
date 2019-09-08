@@ -1,0 +1,3 @@
+无法定位程序输入点inet_ntop于动态链接库WS2_32.dll上
+
+不支持xp，要嘛自己实现inet_ntop

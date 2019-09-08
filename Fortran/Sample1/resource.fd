@@ -1,0 +1,8 @@
+!DEC$ FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by Sample1.f90
+!
+      integer*4 , parameter :: IDD_SAMPLE1_DIALOG = 101
+      integer*4 , parameter :: IDM_EXIT         =  30001
+      integer*4 , parameter :: IDM_APPLY        =  30002
+

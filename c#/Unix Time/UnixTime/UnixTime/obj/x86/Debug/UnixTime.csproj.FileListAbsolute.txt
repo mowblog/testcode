@@ -1,0 +1,5 @@
+F:\Learn\C#\Unix Time\UnixTime\UnixTime\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Learn\C#\Unix Time\UnixTime\UnixTime\bin\Debug\UnixTime.exe
+F:\Learn\C#\Unix Time\UnixTime\UnixTime\bin\Debug\UnixTime.pdb
+F:\Learn\C#\Unix Time\UnixTime\UnixTime\obj\x86\Debug\UnixTime.exe
+F:\Learn\C#\Unix Time\UnixTime\UnixTime\obj\x86\Debug\UnixTime.pdb

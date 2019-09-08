@@ -1,0 +1,4 @@
+LIBRARY
+
+EXPORTS
+	m_add

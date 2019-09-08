@@ -1,0 +1,19 @@
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.exe
+C:\Documents and Settings\ts\Desktop\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.pdb
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\GenerateResource.read.1.tlog
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\GenerateResource.write.1.tlog
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.exe
+F:\Learn\C#\anycpu\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.pdb

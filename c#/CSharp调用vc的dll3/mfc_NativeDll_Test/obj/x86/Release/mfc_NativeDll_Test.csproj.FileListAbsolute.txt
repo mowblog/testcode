@@ -1,0 +1,7 @@
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\bin\Release\mfc_NativeDll_Test.exe
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\bin\Release\mfc_NativeDll_Test.pdb
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\obj\x86\Release\mfc_NativeDll_Test.Form1.resources
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\obj\x86\Release\mfc_NativeDll_Test.Properties.Resources.resources
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\obj\x86\Release\mfc_NativeDll_Test.csproj.GenerateResource.Cache
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\obj\x86\Release\mfc_NativeDll_Test.exe
+F:\Learn\C#\CSharp调用vc的dll3\mfc_NativeDll_Test\obj\x86\Release\mfc_NativeDll_Test.pdb

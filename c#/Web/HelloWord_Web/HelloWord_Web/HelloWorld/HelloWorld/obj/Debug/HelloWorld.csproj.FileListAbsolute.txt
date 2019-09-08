@@ -1,0 +1,6 @@
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\HelloWorld.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\HelloWorld.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Debug\ResolveAssemblyReference.cache
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\test.dll

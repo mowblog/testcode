@@ -1,0 +1,9 @@
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\csharp2sql2005.Properties.Resources.resources
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\bin\Debug\csharp2sql2005.exe
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\bin\Debug\csharp2sql2005.pdb
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\csharp2sql2005.exe
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\csharp2sql2005.pdb
+F:\Learn\C#\c#toSQL2005\csharp2sql2005\csharp2sql2005\obj\x86\Debug\csharp2sql2005.Form1.resources

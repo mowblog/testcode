@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sample1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Sample1.res" /d "NDEBUG" "F:\Learn\Fortran\Sample1\Sample1.rc"" 
+Creating temporary file "R:\Documents and Settings\jma\Local Settings\Temp\RSP235.tmp" with contents
+[
+/compile_only /nologo /warn:nofileopt /winapp /module:"Release/" /object:"Release/" 
+"F:\Learn\Fortran\Sample1\Sample1Globals.f90"
+"F:\Learn\Fortran\Sample1\Sample1.f90"
+]
+Creating temporary file "R:\Documents and Settings\jma\Local Settings\Temp\RSP236.tmp" with contents
+[
+version.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Sample1.pdb" /machine:I386 /out:"Release/Sample1.exe" 
+.\Release\Sample1.obj
+.\Release\Sample1Globals.obj
+.\Release\Sample1.res
+]
+Creating command line "link.exe @"R:\Documents and Settings\jma\Local Settings\Temp\RSP236.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling Fortran...
+F:\Learn\Fortran\Sample1\Sample1Globals.f90
+F:\Learn\Fortran\Sample1\Sample1.f90
+Linking...
+
+
+
+<h3>Results</h3>
+Sample1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

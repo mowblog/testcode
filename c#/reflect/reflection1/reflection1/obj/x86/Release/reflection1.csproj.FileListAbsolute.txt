@@ -1,0 +1,5 @@
+F:\Learn\C#\reflect\reflection1\reflection1\bin\Release\reflection1.exe
+F:\Learn\C#\reflect\reflection1\reflection1\bin\Release\reflection1.pdb
+F:\Learn\C#\reflect\reflection1\reflection1\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Learn\C#\reflect\reflection1\reflection1\obj\x86\Release\reflection1.exe
+F:\Learn\C#\reflect\reflection1\reflection1\obj\x86\Release\reflection1.pdb

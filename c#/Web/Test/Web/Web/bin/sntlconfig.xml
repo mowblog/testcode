@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+This is the configuration file for the applications run using a 
+Sentinel Hardware key/Sentinel Dual Hardware key. You can set 
+the values prescribed below or contact your software vendor for details.
+
+Notes for using this file:
+
+1. Default location  of this file is application's installation directory. 
+2. If  ConfigFile Path is set by SFNTSetConfigFile() API or through Toolkit then move this file from the application's installation directory to ConfigFile Path .
+3. It is not necessary to set all the tag values.   
+4. Remove this file if you do not want to apply these settings.
+
+
+-->
+
+<SentinelConfiguration>
+     <SentinelKeys>
+
+<!-- To discard the values set in this file, remove the comment signs from the following tag -->
+<!-- <ConfigDiscard/> -->
+
+
+<!-- Type only one entry between the Protocol tag:
+SP_TCP_PROTOCOL or SP_TCP6_PROTOCOL
+-->
+
+              <Protocol>
+SP_TCP_PROTOCOL
+              </Protocol>
+
+
+<!-- Type only one entry between the ContactServer tag: 
+FOR TCP/Ipv4 Protocol : Workstation name or IP v4 address 
+				For e.g.   	127.0.0.1
+FOR TCP/IPv6 Protocol :
+	For Windows:   
+			link Local IPv6 Server Address % Client ScopeId	
+			For e.g.  		fe80::214:22ff:fe3f:7412%4
+	For Linux and Macintosh: 
+			linkLocak IPv6 Server Address % Client Network Interface
+			For e.g.  		fe80::214:22ff:fe3f:7412%eth0 (FOR LINUX)
+			For e.g.  		fe80::214:22ff:fe3f:7412%en0 (FOR MACINTOSH)				
+-->
+
+              <ContactServer>
+			  172.25.20.134
+				172.25.20.138
+              </ContactServer>
+
+
+<!-- Type a value ranging between 60 and 25,92,000 seconds, or type 0xFFFFFFFF (or -1) for an infinite heartbeat  interval -->
+
+              <Heartbeat>
+60
+              </Heartbeat>
+
+
+<!-- Type a value for the server port, the default port is 7001 -->
+
+              <ServerPort>
+7001
+              </ServerPort>
+
+     </SentinelKeys>
+
+</SentinelConfiguration>

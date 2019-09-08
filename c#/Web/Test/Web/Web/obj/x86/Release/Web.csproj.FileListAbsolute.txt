@@ -1,0 +1,9 @@
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\bin\x86\Release\Web.dll
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\bin\x86\Release\Web.pdb
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\bin\x86\Release\BLL.dll
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\bin\x86\Release\DAL.dll
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\bin\x86\Release\BLL.pdb
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\bin\x86\Release\DAL.pdb
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\obj\x86\Release\Web.dll
+C:\Documents and Settings\jma\Desktop\潍坊例子\潍坊例子\Test\Web\Web\obj\x86\Release\Web.pdb

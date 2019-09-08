@@ -1,0 +1,12 @@
+<publishData>
+  <publishTarget publishUrl="H:\Temp\workspace\">
+    <file relUrl="bin/x86/Release/DAL.dll" publishTime="10/08/2013 16:01:18" />
+    <file relUrl="bin/x86/Release/DAL.pdb" publishTime="10/08/2013 16:01:18" />
+    <file relUrl="bin/x86/Release/Web.dll" publishTime="10/08/2013 16:09:40" />
+    <file relUrl="bin/x86/Release/Web.pdb" publishTime="10/08/2013 16:09:40" />
+    <file relUrl="Web.config" publishTime="10/08/2013 16:06:32" />
+    <file relUrl="Default.aspx" publishTime="10/08/2013 16:08:46" />
+    <file relUrl="bin/x86/Release/BLL.dll" publishTime="10/08/2013 16:02:38" />
+    <file relUrl="bin/x86/Release/BLL.pdb" publishTime="10/08/2013 16:02:38" />
+  </publishTarget>
+</publishData>

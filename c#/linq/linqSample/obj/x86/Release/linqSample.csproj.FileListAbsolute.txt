@@ -1,0 +1,5 @@
+F:\Learn\C#\linq\linqSample\bin\Release\linqSample.exe
+F:\Learn\C#\linq\linqSample\bin\Release\linqSample.pdb
+F:\Learn\C#\linq\linqSample\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Learn\C#\linq\linqSample\obj\x86\Release\linqSample.exe
+F:\Learn\C#\linq\linqSample\obj\x86\Release\linqSample.pdb

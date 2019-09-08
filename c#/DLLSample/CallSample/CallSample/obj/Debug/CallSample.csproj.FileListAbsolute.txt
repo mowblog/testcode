@@ -1,0 +1,11 @@
+F:\Learn\C#\DLLSample\CallSample\CallSample\bin\Debug\CallSample.exe
+F:\Learn\C#\DLLSample\CallSample\CallSample\bin\Debug\CallSample.pdb
+F:\Learn\C#\DLLSample\CallSample\CallSample\bin\Debug\DLL.dll
+F:\Learn\C#\DLLSample\CallSample\CallSample\bin\Debug\DLL.pdb
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\ResolveAssemblyReference.cache
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\CallSample.Form1.resources
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\CallSample.Properties.Resources.resources
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\GenerateResource.read.1.tlog
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\GenerateResource.write.1.tlog
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\CallSample.exe
+F:\Learn\C#\DLLSample\CallSample\CallSample\obj\Debug\CallSample.pdb

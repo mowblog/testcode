@@ -1,0 +1,5 @@
+F:\Learn\C#\DLLSample\DLL\DLL\bin\Release\DLL.dll
+F:\Learn\C#\DLLSample\DLL\DLL\bin\Release\DLL.pdb
+F:\Learn\C#\DLLSample\DLL\DLL\obj\Release\ResolveAssemblyReference.cache
+F:\Learn\C#\DLLSample\DLL\DLL\obj\Release\DLL.dll
+F:\Learn\C#\DLLSample\DLL\DLL\obj\Release\DLL.pdb

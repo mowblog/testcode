@@ -1,0 +1,21 @@
+C#程序集使用强名字(Strong Name)签名/强名称签名
+强名称签名的方法：
+
+1.打开“Visual Studio 2008 命令提示”命令行工具。
+
+2. 用Sn.exe 生成一个Public/Private Key Pair 文件：Sn -k test.snk. 如果不指定大小，它的大小就是596 bytes（128 publicKey，32 publicKey Header, 436 PrivateKey）。
+
+3. 添加 [assembly: AssemblyKeyFile(@"test.snk")] 到程序的AssemblyInfo.cs中，也可以在Build Option中指定(/keyfile:test.snk ). 再重新生成test.dll. 在VisualStudio中还可以用工程属性指定.
+
+4. Sn -v test.dll 查一下test.dll是不是已经是一个strongname的程序了，输出：test.dll is valid。表示成功生成了一个具有PublicKey的程序 Sn -T test.dll 可以得到这个assembly的PublickKeyToken。
+
+Sn -R myAssembly.dll sgKey.snk 
+
+为什么使用强名称签名：
+
+通过签发具有强名称的程序集，您可以确保名称的全局唯一性。强名称还特别满足以下要求： 
+
+强名称依赖于唯一的密钥对来确保名称的唯一性。任何人都不会生成与您生成的相同的程序集名称，因为用一个私钥生成的程序集的名称与用其他私钥生成的程序集的名称不相同。 
+强名称保护程序集的版本沿袭。强名称可以确保没有人能够生成您的程序集的后续版本。用户可以确信，他们所加载的程序集的版本出自创建该版本（应用程序是用该版本生成的）的同一个发行者。 
+强名称提供可靠的完整性检查。通过 .NET 框架安全检查后，即可确信程序集的内容在生成后未被更改过。但请注意，强名称中或强名称本身并不暗含某一级别的信任，例如由数字签名和支持证书提供的信任。 
+在引用具有强名称的程序集时，您应该能够从中受益，例如版本控制和命名保护。如果此具有强名称的程序集以后引用了具有简单名称的程序集（后者没有这些好 处），则您将失去使用具有强名称的程序集所带来的好处，并依旧会产生 DLL 冲突。因此，具有强名称的程序集只能引用其他具有强名称的程序集。

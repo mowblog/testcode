@@ -1,0 +1,6 @@
+F:\Learn\C#\Web\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\Learn\C#\Web\WebApplication1\bin\WebApplication1.dll
+F:\Learn\C#\Web\WebApplication1\bin\WebApplication1.pdb
+F:\Learn\C#\Web\WebApplication1\bin\hasp_net_windows.dll
+F:\Learn\C#\Web\WebApplication1\obj\Debug\WebApplication1.dll
+F:\Learn\C#\Web\WebApplication1\obj\Debug\WebApplication1.pdb

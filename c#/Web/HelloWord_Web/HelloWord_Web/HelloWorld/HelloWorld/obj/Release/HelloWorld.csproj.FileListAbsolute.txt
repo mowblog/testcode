@@ -1,0 +1,14 @@
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\HelloWorld.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\HelloWorld.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\MyDll.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\bin\MyDll.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Release\ResolveAssemblyReference.cache
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Release\HelloWorld.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Release\HelloWorld.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\bin\HelloWorld.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\bin\HelloWorld.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\bin\MyDll.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\bin\MyDll.pdb
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Release\HelloWorld.csprojResolveAssemblyReference.cache
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Release\HelloWorld.dll
+F:\Learn\C#\Web\HelloWord_Web\HelloWord_Web\HelloWorld\HelloWorld\obj\Release\HelloWorld.pdb

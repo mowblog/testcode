@@ -1,0 +1,10 @@
+<peach>
+    <DataModel name="test">
+        <String mutable="false" value="select " />
+        <String value="id" />
+		<String mutable="false" value="," />
+		<String value="name" />
+        <String mutable="false" value=" from " />
+        <String value="table_for_test" />
+    </DataModel>
+</peach>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach xmlns="http://peachfuzzer.com/2012/Peach" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://peachfuzzer.com/2012/Peach ../peach.xsd">
+
+
+	<DataModel name="t_String">
+		<String value="Hello World!" />
+	</DataModel>
+    
+    <DataModel name="t_NumericString">
+		<String value="1234">
+            <Hint name="NumericString" value="true"/>
+        </String>
+	</DataModel>
+    
+    <DataModel name="t_Time">
+		<String value="2019" />
+        <String value="-" mutable="false"/>
+        <String value="03" />
+        <String value="-" mutable="false"/>
+        <String value="27"/>
+        <String value=" " mutable="false"/>
+        <String value="21"/>
+        <String value=":" mutable="false"/>
+        <String value="15"/>
+        <String value=":" mutable="false"/>
+        <String value="55"/>
+	</DataModel>
+    
+    <DataModel name="t_Number">
+        <Number name="t_number" value="ABCDEF10ABCDEF10" valueType="hex" size="64" />
+		<String mutable="false" value="\n" />
+	</DataModel>
+	
+    <DataModel name="t_Choice">
+        <Choice name="choice_test" >
+            <String value="string123" />
+            <String value="string2" />
+            <String value="string3" />
+            <String value="string4" />
+        </Choice>
+    </DataModel>
+    
+    <DataModel name="tcp_Recv">
+        <Blob/>
+    </DataModel>
+
+	<StateModel name="State" initialState="State1" >
+		<State name="State1"  >
+<!--			<Action type="output" >
+				<DataModel ref="t_Number"/>
+			</Action>
+            <Action type="output" >
+                <DataModel ref="t_String" />
+            </Action>-->
+<!--            <Action type="output" >
+                <DataModel ref="t_Time" />
+            </Action>-->
+<!--
+            <Action type="output" >
+                <DataModel ref="t_NumericString" />
+            </Action>
+-->
+            <Action type="output" >
+                <DataModel ref="t_Choice" />
+            </Action>
+            <!--当Publish不是Tcp时，请注释掉input-->
+<!--
+            <Action type="input" >
+                <DataModel ref="tcp_Recv" />
+            </Action>
+-->
+		</State>
+	</StateModel>
+
+
+	<Test name="Default">
+		<StateModel ref="State"/>
+		
+
+    <Publisher class="ConsoleHex" />
+<!--        <Publisher class="File" >
+            <Param name="FileName" value="number.log" />
+            <Param name="Overwrite" value="false" />
+            <Param name="Append" value="true" />
+        </Publisher>-->
+        
+<!--
+        <Publisher class="Tcp" >
+            <Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="9999"/>
+        </Publisher>
+-->
+        
+        <Strategy class="Random">
+            <Param name="MaxFieldsToMutate" value="15"/>
+            <Param name="SwitchCount" value="100"/>
+        </Strategy>
+
+	</Test>
+
+</Peach>
+<!-- end -->

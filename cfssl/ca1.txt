@@ -1,0 +1,47 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 6587467800728431784 (0x5b6b631017bdeca8)
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: OU = mowblogRootTester, CN = mowblogRooter
+        Validity
+            Not Before: Aug  3 12:58:57 2019 GMT
+            Not After : Nov  2 19:03:57 2019 GMT
+        Subject: OU = mowblogRootTester, CN = mowblogRooter
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:e3:e5:01:8b:27:86:91:cb:50:74:ae:ff:a1:e4:
+                    dd:33:71:5b:68:f1:f4:2f:a1:d1:52:63:2d:60:3c:
+                    46:dc:aa:22:c7:c9:30:f0:59:a8:92:e7:10:e8:12:
+                    19:04:7d:1b:12:10:5a:e7:e9:fd:db:e8:d5:ee:b6:
+                    f8:fa:da:cb:c0
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                08:F8:8E:00:BE:F2:A3:93:A3:40:2D:A0:A1:E9:A8:75:AD:A5:B1:D8
+    Signature Algorithm: ecdsa-with-SHA256
+         30:45:02:21:00:8d:e6:f4:99:42:61:3d:c6:7f:91:41:bb:5c:
+         eb:11:7c:40:8b:36:6a:88:13:db:95:06:96:77:c5:b0:22:57:
+         d2:02:20:74:7b:a6:fa:75:a1:e7:6d:ce:30:bc:93:c7:fd:1a:
+         e0:87:42:16:8b:b7:94:85:37:38:31:86:d9:15:fc:eb:bf
+-----BEGIN CERTIFICATE-----
+MIIBvDCCAWKgAwIBAgIIW2tjEBe97KgwCgYIKoZIzj0EAwIwNDEaMBgGA1UECxMR
+bW93YmxvZ1Jvb3RUZXN0ZXIxFjAUBgNVBAMTDW1vd2Jsb2dSb290ZXIwHhcNMTkw
+ODAzMTI1ODU3WhcNMTkxMTAyMTkwMzU3WjA0MRowGAYDVQQLExFtb3dibG9nUm9v
+dFRlc3RlcjEWMBQGA1UEAxMNbW93YmxvZ1Jvb3RlcjBZMBMGByqGSM49AgEGCCqG
+SM49AwEHA0IABOPlAYsnhpHLUHSu/6Hk3TNxW2jx9C+h0VJjLWA8RtyqIsfJMPBZ
+qJLnEOgSGQR9GxIQWufp/dvo1e62+Pray8CjXjBcMA4GA1UdDwEB/wQEAwIFoDAd
+BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNV
+HQ4EFgQUCPiOAL7yo5OjQC2goemoda2lsdgwCgYIKoZIzj0EAwIDSAAwRQIhAI3m
+9JlCYT3Gf5FBu1zrEXxAizZqiBPblQaWd8WwIlfSAiB0e6b6daHnbc4wvJPH/Rrg
+h0IWi7eUhTc4MYbZFfzrvw==
+-----END CERTIFICATE-----

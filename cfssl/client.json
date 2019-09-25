@@ -1,0 +1,18 @@
+{
+    "_comment":"hosts: list of the domain names which the certificate should be valid for",
+    "hosts": [
+      "102.13.206.98"
+    ],
+    "_comment":"CN: used by some CAs to determine which domain the certificate is to be generated for instead",
+    "CN": "client1",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "_comment":"names: a list of name objects. Each name object should contain at least one C, L, O, OU, or ST value (or any combination of these)",
+    "names": [
+        {
+            "OU": "Mowblog Studio"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            43:d0:ec:48:41:08:e9:d7:b5:53:ab:7a:26:b9:84:27:e4:b9:00:30
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: OU = mowblogRootTester, CN = mowblogRooter
+        Validity
+            Not Before: Aug  3 13:00:00 2019 GMT
+            Not After : Aug  1 13:00:00 2024 GMT
+        Subject: OU = mowblogRootTester, CN = mowblogRooter
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:29:17:eb:1e:26:6c:72:43:54:24:9e:12:d9:f4:
+                    4c:7e:d6:5e:4f:13:fe:f8:1e:7f:dd:1f:1f:c9:b3:
+                    1c:43:a9:c5:e4:b3:55:34:b0:86:22:cd:69:da:34:
+                    b7:9c:79:57:4b:84:f0:d0:3e:f4:fe:68:3c:0b:1f:
+                    26:48:37:19:17
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Key Identifier: 
+                EB:DD:DF:CA:9D:C4:B2:25:EA:E7:A5:CA:68:45:F9:CE:38:40:1E:58
+    Signature Algorithm: ecdsa-with-SHA256
+         30:44:02:20:12:d1:c2:b2:e7:b4:69:29:f8:0a:49:5b:12:6e:
+         eb:e8:53:25:9c:e7:69:db:24:07:c8:e7:c9:a7:3a:63:1a:00:
+         02:20:22:e3:1f:63:b4:61:46:8a:38:1c:97:93:0b:93:f9:ba:
+         bb:b7:ce:26:4c:30:db:47:29:bc:3c:1f:54:9e:b5:95
+-----BEGIN CERTIFICATE-----
+MIIBqzCCAVKgAwIBAgIUQ9DsSEEI6de1U6t6JrmEJ+S5ADAwCgYIKoZIzj0EAwIw
+NDEaMBgGA1UECxMRbW93YmxvZ1Jvb3RUZXN0ZXIxFjAUBgNVBAMTDW1vd2Jsb2dS
+b290ZXIwHhcNMTkwODAzMTMwMDAwWhcNMjQwODAxMTMwMDAwWjA0MRowGAYDVQQL
+ExFtb3dibG9nUm9vdFRlc3RlcjEWMBQGA1UEAxMNbW93YmxvZ1Jvb3RlcjBZMBMG
+ByqGSM49AgEGCCqGSM49AwEHA0IABCkX6x4mbHJDVCSeEtn0TH7WXk8T/vgef90f
+H8mzHEOpxeSzVTSwhiLNado0t5x5V0uE8NA+9P5oPAsfJkg3GRejQjBAMA4GA1Ud
+DwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTr3d/KncSyJern
+pcpoRfnOOEAeWDAKBggqhkjOPQQDAgNHADBEAiAS0cKy57RpKfgKSVsSbuvoUyWc
+52nbJAfI58mnOmMaAAIgIuMfY7RhRoo4HJeTC5P5uru3ziZMMNtHKbw8H1SetZU=
+-----END CERTIFICATE-----

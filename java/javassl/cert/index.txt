@@ -1,0 +1,2 @@
+R	201019140151Z	191020140151Z	00	unknown	/C=CN/ST=GS/O=LZUiversity/OU=ETS/CN=Server/emailAddress=RootCA@lzu.cn
+V	201019140151Z		01	unknown	/C=CN/ST=GS/O=LZUiversity/OU=ETS/CN=Client/emailAddress=RootCA@lzu.cn

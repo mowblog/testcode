@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach >
+	<Include ns="Basic" src="./fuzz_mysql/fuzz_mysql_State.xml" />
+
+	<Test name="Default">
+		<StateModel ref="Basic:State"/>
+		<!-- <Mutators mode="include">
+			<Mutator class="ChoiceSwitch" />
+		</Mutators> -->
+
+    	<Publisher class="Tcp" >
+			<Param name="Host" value="127.0.0.1"/>
+            <Param name="Port" value="3306"/>
+		</Publisher>
+
+        <Strategy class="Random">
+            
+        </Strategy>
+
+	</Test>
+
+</Peach>
+<!-- end -->

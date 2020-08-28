@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach>
+
+	<DataModel name="ack">
+		<Blob />
+	</DataModel>
+
+	<DataModel name="ServerGreeting">
+		<Number name="length" size="24" endian="little">
+			<Relation type="size" of="ServerGreeting" />
+		</Number>
+		<Number name="PacketNumber" size="8" endian="little" valueType="hex" value="00" token="true" />
+		<Block>
+			<Number name="Protocol" size="8" endian="little" />
+			<String name="Version" />
+			<Number size="8" endian="little" valueType="hex" value="00" token="true" />
+			<Number name="ThreadID" size="32" endian="little" valueType="hex" />
+			<Blob name="Salt1" length="8" />
+			<Number size="8" endian="little" valueType="hex" value="00" token="true" />
+			<Blob name="ServerCapabilities" valueType="hex" value="ff f7" token="true" />
+			<Number name="ServerLanguage" size="8" endian="little" />
+			<Number name="ServerStatus" size="16" endian="little" valueType="hex" value="02 00" token="true" />
+			<Number name="ExtendedServerCapabilities" size="16" endian="little" valueType="hex" value="ff 81" token="true" />
+			<Number name="AuthenticationPluginLength" size="8" endian="little" />
+			<Blob name="Unused" length="10" />
+			<Blob name="Salt2" length="12" />
+			<Number size="8" endian="little" valueType="hex" value="00" token="true" />
+			<Blob name="AuthenticationPlugin" />
+			<!-- <String name="AuthenticationPlugin" />
+			<Number size="8" endian="little" valueType="hex" value="00" token="true" /> -->
+		</Block>
+	</DataModel>	
+
+	<DataModel name="LoginRequest">
+		<Number name="length" size="24" endian="little">
+			<Relation type="size" of="body" />
+		</Number>
+		<Number name="PacketNumber" size="8" endian="little" valueType="hex" value="01" />
+		<Block name="body">
+			<Number name="ClientCapabilities" size="16" endian="little" valueType="hex" value="85 a6" />
+			<Number name="ExtendedClientCapabilities" size="16" endian="little" valueType="hex" value="ff 01" />
+			<Blob name="MaxPacket" valueType="hex" value="00 00 00 01" />
+			<Number name="Charset" size="8" endian="little" valueType="hex" value="21" />
+			<Blob name="Nothing1" valueType="hex" length="23" />
+			<String name="Username" value="root" />
+			<Number size="8" endian="little" valueType="hex" value="00" />
+			<Number name="unknow1" size="8" endian="little" valueType="hex" value="14" />
+			<Blob name="Password" length="20" />
+			<String name="ClientAuthPlugin"  value="mysql_native_password" />
+			<Number size="8" endian="little" valueType="hex" value="00" />
+			<Block name="ConnectionAttributes">
+				<Blob valueType="hex" value="66 03 5f 6f 73 05 4c 69 6e 75 78 0c 5f 63 6c 6965 6e 74 5f 6e 61 6d 65 08 6c 69 62 6d 79 73 716c 04 5f 70 69 64 05 31 34 36 38 30 0f 5f 63 6c69 65 6e 74 5f 76 65 72 73 69 6f 6e 06 35 2e 372e 33 30 09 5f 70 6c 61 74 66 6f 72 6d 06 78 3836 5f 36 34 0c 70 72 6f 67 72 61 6d 5f 6e 61 6d65 05 6d 79 73 71 6c" />
+			</Block>
+		</Block>
+
+	</DataModel>		
+
+	<DataModel name="LoginResponse">
+		<Blob length="4" />
+		<Number name="length" size="24" endian="little">
+			<Relation type="size" of="Body" />
+		</Number>
+		<Number name="PacketNumber" size="8" endian="little" valueType="hex" value="02" token="true" />
+		<Block name="Body">
+			<Number name="ResponseCode" size="8" endian="little"  />
+			<Number name="AffectedRows" size="8" endian="little"  />
+			<Number name="unknow" size="8" endian="little"  />
+			<Number name="ServerStatus" size="16" endian="little" />
+			<Number name="Warning" size="16" endian="little"  />
+		</Block>
+
+	</DataModel>
+
+	<DataModel name="RequestQuery">
+		<Number name="length" size="24" endian="little">
+			<Relation type="size" of="Body" />
+		</Number>
+		<Number name="PacketNumber" size="8" endian="little" valueType="hex" value="00"/>
+		<Block name="Body">
+			<Number name="Command" size="8" endian="little" valueType="hex" value="03"/>
+			<String name="Statement" value="select 1 from dual"  />
+		</Block>
+	</DataModel>
+
+	<DataModel name="RequestResponse">
+		<Blob />
+	</DataModel>	
+
+	<DataModel name="MesgFormat">
+		<Number name="length" size="32" endian="little">
+			<Relation type="size" of="Mesg" />
+		</Number>
+		<Block name="Mesg">
+			<Number name="MesgType" size="8" endian="little" />
+			<Block name="MesgPayload">
+				<Number name="MesgPayloadLength" size="32" endian="little">
+					<Relation type="size" of="MesgPayload" />
+				</Number>
+			</Block>
+		</Block>
+	</DataModel>	
+</Peach>

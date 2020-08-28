@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Peach>
+    <Include ns="Basic" src="./fuzz_mysql/fuzz_mysql_Data.xml" />
+	<PythonPath path="/materials/software/peach/peach3.1.124/pits/fuzz_mysql/python" />
+	<Import import="auth" />
+
+    <StateModel name="State" initialState="State1" >
+		<State name="State1"  >
+		<Action type="input" onComplete="auth.get_salt(self)">
+         	<DataModel ref="Basic:ServerGreeting"  />
+         </Action>		
+		
+		<Action type="output" onStart="auth.set_password(self)">
+         	<DataModel ref="Basic:LoginRequest" />
+         </Action>
+
+		<Action type="input">
+         	<DataModel ref="Basic:LoginResponse" />
+         </Action>
+
+		<Action type="output" >
+         	<DataModel ref="Basic:RequestQuery" />
+         </Action>
+
+
+		<Action type="input">
+         	<DataModel ref="Basic:RequestResponse" />
+         </Action>		 
+
+		</State>
+	</StateModel>
+
+</Peach>

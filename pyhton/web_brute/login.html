@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head></head>
+<body>
+<form>
+    <input id="username"/>
+	<input id="password"/>
+	<input type="submit" value="login" onclick="check()"/>
+</form>
+<h4 id="result"></h4>
+</body>
+<script>
+    function check(){
+	    var username = document.getElementById("username")
+		var password = document.getElementById("password")
+		if (username.value=="admin" && password.value == "Abcd1234"){
+		    window.location.href="main.html"
+		}
+		else{
+			document.getElementById("result").innerHTML="password incorrect";
+		}
+		    
+	}
+</script>
+</html>

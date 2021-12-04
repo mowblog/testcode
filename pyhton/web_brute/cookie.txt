@@ -1,0 +1,2 @@
+#LWP-Cookies-2.0
+Set-Cookie3: sysauth=88f71bcfb0cdcd22b91d5b086163ee3a; path="/cgi-bin/luci/"; domain="192.168.10.1"; path_spec; discard; version=0
